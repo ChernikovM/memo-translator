@@ -27,7 +27,7 @@
 #     main()
 
 import warnings
-
+warnings.filterwarnings('ignore', category=UserWarning, module='numpy')
 warnings.filterwarnings('ignore', category=FutureWarning)
 
 from fastapi import FastAPI, HTTPException
