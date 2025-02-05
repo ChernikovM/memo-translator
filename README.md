@@ -2,4 +2,4 @@ How to run:
 
 pip install -r requirements.txt
 
-puthon main.py
+python main.py
